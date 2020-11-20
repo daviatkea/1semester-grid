@@ -26,6 +26,7 @@ img {
   height: auto;
   width: 100%;
   border-radius: 8px;
+  background: conic-gradient(at 50% -1rem, #2a2139 20%, #463866, #2a2139);
 }
 
 h1 {
