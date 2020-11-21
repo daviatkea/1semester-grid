@@ -395,6 +395,32 @@ article p + p {
   }
 }
 
+/* Section 6 */
+#section-6 .flex {
+  display: flex;
+  flex-flow: wrap;
+  gap: 2rem;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.5);
+}
+
+#section-6 .flex > * {
+  flex: 0 1 250px;
+}
+
+#section-6 .flex figure {
+  flex-grow: 1;
+}
+
+#section-6 figure {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
+  gap: 0.5rem;
+}
+
 footer {
   text-align: center;
   padding: 2rem;
