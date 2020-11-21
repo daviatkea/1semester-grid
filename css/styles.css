@@ -84,7 +84,7 @@ hr {
   height: 75vh;
   min-height: 500px;
   color: #fff;
-  background-image: url("https://images.unsplash.com/photo-1507721899954-135dc6a2afc6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=2000&fit=max&ixid=eyJhcHBfaWQiOjE0NTg5fQ");
+  background-image: url("https://picsum.photos/1280/1024.webp?grayscale&random=25");
   background-color: #463866;
   background-blend-mode: multiply;
   background-position: 100vmax 50%;
