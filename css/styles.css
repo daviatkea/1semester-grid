@@ -448,8 +448,8 @@ article p + p {
   grid-area: 1 / 1 / auto / 3;
   align-self: end;
   font-size: 2.3rem;
-  text-shadow: 1px 1px 4px #fff, -1px -1px 4px #fff, -1px 1px 4px #fff,
-    1px -1px 4px #fff;
+  text-shadow: 1px 1px 6px #fff5, -1px -1px 6px #fff5, -1px 1px 6px #fff5,
+    1px -1px 6px #fff5;
   z-index: 1;
 }
 
