@@ -87,7 +87,7 @@ hr {
   background-image: url("https://picsum.photos/1280/1024.webp?grayscale&random=25");
   background-color: #463866;
   background-blend-mode: multiply;
-  background-position: 100vmax 50%;
+  background-position: 50% 50%;
   background-size: cover;
 }
 
