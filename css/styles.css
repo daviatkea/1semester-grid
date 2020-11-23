@@ -452,6 +452,16 @@ article p + p {
 
 #section-7 figure {
   grid-area: 1 / 2 / -1 / -1;
+  display: grid;
+}
+
+#section-7 figure > * {
+  grid-area: 1 / 1;
+}
+
+#section-7 figcaption {
+  place-self: end;
+  padding: 1rem;
 }
 
 #section-7 p {
