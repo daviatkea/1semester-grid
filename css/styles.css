@@ -388,7 +388,8 @@ margin-bottom: 1rem;
     overflow: revert;
 
     padding: 1rem;
-    border: 2px dashed hsl(258deg 15% 80%);
+    /* border: 2px dashed hsl(258deg 15% 80%); */
+    background: #fff;
     border-radius: 16px;
   }
 
