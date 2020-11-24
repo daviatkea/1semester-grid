@@ -171,6 +171,10 @@ article p + p {
   margin-top: 0.5rem;
 }
 
+.copy > * + * {
+  margin-top: 0.5rem;
+}
+
 @media (min-width: 600px) {
   [id|="section"] {
     padding-block: 4rem;
