@@ -415,7 +415,7 @@ article p + p {
   display: flex;
   flex-flow: wrap;
   gap: 2rem;
-  padding: 2rem;
+  padding: 1rem;
   background: #fff;
   border-radius: 16px;
   box-shadow: 0 12px 28px 0 rgba(0, 0, 0, 0.2), 0 2px 4px 0 rgba(0, 0, 0, 0.1),
@@ -434,6 +434,12 @@ article p + p {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(min(100px, 100%), 1fr));
   gap: 0.5rem;
+}
+
+@media (min-width: 600px) {
+  #section-6 .flex {
+    padding: 2rem;
+  }
 }
 
 /* Section 7 */
