@@ -90,7 +90,7 @@ hr {
   height: 75vh;
   min-height: 500px;
   color: #fff;
-  background-image: url("../img/header-big.jpg");
+  background-image: url("../img/header.webp");
   background-color: #463866;
   background-blend-mode: multiply;
   background-position: 50% 50%;
@@ -113,7 +113,7 @@ nav {
 }
 
 nav:not(.is-pinned) .link {
-  color: #888;
+  color: #b0b0b0;
 }
 
 nav .link:hover {
@@ -144,7 +144,7 @@ nav ul {
 
 nav .link {
   display: inline-block;
-  color: #888;
+  color: #b0b0b0;
   text-decoration: none;
   font-weight: 700;
 }
@@ -168,6 +168,8 @@ main > * {
 /* Sections */
 [id|="section"] {
   padding-block: 2rem;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 1000px;
 }
 
 article p + h3 {
