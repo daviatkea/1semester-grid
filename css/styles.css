@@ -416,6 +416,7 @@ margin-bottom: 1rem;
 #section-6 .flex {
   display: flex;
   flex-flow: wrap;
+  align-items: center;
   gap: 2rem;
   padding: 1rem;
   background: #fff;
