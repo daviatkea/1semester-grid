@@ -90,7 +90,7 @@ hr {
   height: 75vh;
   min-height: 500px;
   color: #fff;
-  background-image: url("https://picsum.photos/1280/1024.webp?grayscale&random=25");
+  background-image: url("../img/header.webp");
   background-color: #463866;
   background-blend-mode: multiply;
   background-position: 50% 50%;
