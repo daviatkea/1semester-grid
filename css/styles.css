@@ -162,6 +162,8 @@ main > * {
 /* Sections */
 [id|="section"] {
   padding-block: 2rem;
+  content-visibility: auto;
+  contain-intrinsic-size: 0 500px;
 }
 
 article p + h3 {
