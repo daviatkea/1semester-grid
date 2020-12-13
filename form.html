@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forms demo</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        margin: 0;
+      }
+
+      html {
+        height: 100%;
+      }
+
+      body {
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        min-height: 100%;
+        line-height: 1.4;
+        font-family: system-ui;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        line-height: 1.25;
+        margin-bottom: 1rem;
+      }
+
+      header,
+      footer {
+        background: #463866;
+        padding: 2rem;
+        color: #fff;
+        text-align: center;
+      }
+
+      main {
+        padding: 2rem;
+      }
+
+      section {
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      .form-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+        align-items: start;
+        padding: 1.5rem;
+        background: #3a243f;
+        color: #fff;
+        border-radius: 8px;
+      }
+
+      article {
+        padding-right: 2rem;
+        border-right: 2px solid #fb28a8;
+      }
+
+      .form-felt {
+        margin-bottom: 1rem;
+      }
+
+      label {
+        display: grid;
+        justify-items: start;
+        font-weight: 600;
+      }
+
+      input {
+        display: block;
+        font-size: 1.1rem;
+        padding: 0.5rem;
+        border-radius: 4px;
+        border: 0;
+      }
+
+      button {
+        padding: 0.75rem 1rem;
+        margin-top: 1.1rem;
+        border: 0;
+        border-radius: 4px;
+        background: #fb28a8;
+        color: #fff;
+        text-shadow: 0 0 6px rgb(0 0 0 / 40%);
+        font-weight: 700;
+        font-size: 1rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>Forms</div>
+    </header>
+
+    <main>
+      <section>
+        <h1>Kontakt</h1>
+      </section>
+
+      <section class="form-section">
+        <article>
+          <h2>Skriv til os</h2>
+          <p>
+            Udfyld kontaktformularen for at kontakte os. Vi glæder os til at
+            høre fra jer.
+          </p>
+        </article>
+
+        <form netlify>
+          <div class="form-felt">
+            <label>
+              Fulde navn
+              <input
+                placeholder="fx Peter Jensen"
+                type="text"
+                name="fnavn"
+                required
+              />
+            </label>
+          </div>
+
+          <div class="form-felt">
+            <label>
+              E-mail
+              <input
+                placeholder="fx peter@gmail.com"
+                name="email"
+                type="email"
+                required
+              />
+            </label>
+          </div>
+
+          <div class="form-felt">
+            <label>
+              Profil
+              <select name="liste">
+                <option value="">Vælg profil</option>
+                <option value="studerende">Studerende</option>
+                <option value="underviser">Underviser</option>
+              </select>
+            </label>
+          </div>
+
+          <div class="form-felt">
+            <label>
+              Besked (valgfri)
+              <textarea name="besked" rows="6" cols="23"></textarea>
+            </label>
+          </div>
+
+          <button>Send formular</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <small>&copy; forms 2020</small>
+    </footer>
+  </body>
+</html>
