@@ -107,7 +107,7 @@ nav {
 }
 
 nav:not(.is-pinned) .link {
-  color: #888;
+  color: #b0b0b0;
 }
 
 nav .link:hover {
@@ -138,7 +138,7 @@ nav ul {
 
 nav .link {
   display: inline-block;
-  color: #888;
+  color: #b0b0b0;
   text-decoration: none;
   font-weight: 700;
 }
